@@ -63,7 +63,7 @@ for (let i = 0; i < dados.noticias.length; i++) {
 
   txtHTML += `
         <div class="carousel-item ${i === 0 ? 'active' : ''}">
-            <img src="${noticia.imagem_pincipal}" class="d-block w-100" alt="${noticia.titulo}" style="height: 600px; object-fit: cover;">
+            <img src="${noticia.imagem_pincipal}" class="d-block w-100" alt="${noticia.titulo}" style="height: 60vh; object-fit: cover;">
             <div class="carousel-caption">
               <h5 class="card-title fs-3 fw-bold">
               <a href="detalhes.html?id=${noticia.id}" class="text-decoration-none text-light">${noticia.titulo}</a></h5>
@@ -167,7 +167,7 @@ let noticias2 = [
         { "id": 1, "src": "img/medc1.jpg", "descricao": "Pesquisadores em laboratório" },
         { "id": 2, "src": "img/medc2.jpg", "descricao": "Consulta médica sobre melanoma" }
     ]
-}
+},
 ];
 
 let txtHTML2 = '';
