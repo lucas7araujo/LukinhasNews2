@@ -181,7 +181,7 @@ for (let i = 0; i < noticias2.length; i++) {
             <img src="${noticia.imagem_pincipal}" class="card-img-top w-50 h-50 p-2 mx-auto d-block" alt="...">
             <div class="card-body">
               <h5 class="card-title fs-3 fw-bold">
-              <a href="detalhes.html?id=${noticia.id}" class="text-decoration-none text-dark">${noticia.titulo}</a>
+              <a href="detalhes.html?id=${noticia.id}" class="text-decoration-none text-dark pulo-hover">${noticia.titulo}</a>
               </h5>
               <p class="card-text fs-3">${noticia.descricao}</p>
             </div>

@@ -53,3 +53,16 @@ h1 {
     flex-direction: row;
     text-align: center;
 }
+
+.pulo-hover {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .pulo-hover:hover {
+    transform: translate(6px, -6px);
+  }
+  
+  
+  
